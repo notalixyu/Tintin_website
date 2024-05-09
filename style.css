@@ -1,0 +1,32 @@
+body, html {
+  height: 260%;
+  margin: 0%;
+}
+
+.tablink {
+  background-color: rgb(65,82,162);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 12px;
+  font-size: 15px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Main Page {bakcground-color: red;}
+#About the author {background-color: green;}
+#Characters{background-color: blue;}
+#Books{background-color: orange;}
